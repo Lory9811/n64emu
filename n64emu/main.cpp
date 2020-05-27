@@ -33,8 +33,8 @@ int main(int argc, char** argv) {
 			if (event.type == SDL_QUIT) {
 				quit = true;
 			}
-			n64.Update();
 		}
+		n64.Update();
 		SDL_GL_SwapWindow(window);
 	}
 
