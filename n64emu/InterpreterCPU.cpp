@@ -19,6 +19,7 @@ void InterpreterCPU::Init() {
 
 	addInst(J, Jump);
 
+	addSpecial(SLL, Shift);
 	addSpecial(SYSCALL, Syscall);
 }
 

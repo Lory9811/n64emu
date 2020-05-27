@@ -51,6 +51,9 @@
     <ClCompile Include="N64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shift.cpp">
+      <Filter>Source Files\interpreter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="R4300.h">

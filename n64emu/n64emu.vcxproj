@@ -154,6 +154,7 @@
     <ClCompile Include="Memory.cpp" />
     <ClCompile Include="N64.cpp" />
     <ClCompile Include="R4300.cpp" />
+    <ClCompile Include="Shift.cpp" />
     <ClCompile Include="Special.cpp" />
     <ClCompile Include="Syscall.cpp" />
   </ItemGroup>

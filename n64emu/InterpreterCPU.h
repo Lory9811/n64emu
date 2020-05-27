@@ -23,6 +23,7 @@ private:
 	/* end instruction handlers */
 
 	/* start special instructions handlers */
+	static void Shift(Instruction instruction, R4300* cpu);
 	static void Syscall(Instruction instruction, R4300* cpu);
 	/* end special instructions handlers */
 	
